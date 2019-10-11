@@ -14,7 +14,7 @@
         "cross-env": "^5.2.0",
         "laravel-mix": "^2.1.14",
         "laravel-vue-pagination": "^2.2.0",
-        "lodash": "4.6.2",
+        "lodash": "4.17.13",
         "sweetalert": "^2.1.2",
         "vue": "^2.5.17"
     },
