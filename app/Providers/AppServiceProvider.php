@@ -12,28 +12,7 @@ class AppServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	public function boot() {
-
-//		$this->client   = new Client( [
-//			'base_uri'    => config( 'app.api_url' ),
-//			'http_errors' => false
-//		] );
 //
-//
-//		$response = $this->client->get( 'api/user-count-notify',
-//			[
-//				'headers' =>
-//					[
-//						'Authorization' => 'Bearer ' . \Session::get( 'token' )
-//					]
-//			]
-//		);
-//
-////		dd($response);
-//		$data     = \GuzzleHttp\json_decode( $response->getBody() );
-////		dd($data);
-//
-//		view()->share( 'count', $data->inactive_count );
-
 	}
 
 	/**
