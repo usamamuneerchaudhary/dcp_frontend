@@ -19,7 +19,7 @@ NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS 
                         @else
                             <a href="{{route('login')}}">
                                 @endif
-                                <img src="{{ asset('img/logo.png') }}" alt="Vietnam Logo"></a>
+                                <img src="{{ asset('img/dirbs-logo.jpg') }}" alt="dirbs Logo"></a>
                             <hr>
     </div>
     <div class="sidebar-wrapper">
