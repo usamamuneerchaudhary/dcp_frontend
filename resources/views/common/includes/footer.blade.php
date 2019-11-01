@@ -97,7 +97,7 @@ App::getLocale().'/super-admin/license-agreements/create']))
                             var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
                             e.preventDefault();
                             var all = t + bufferText;
-                            document.execCommand('insertText', false, all.trim().substring(0, 1000));
+                            document.execCommand('insertText', false, all.trim().substring(0, 20000));
                             if (typeof callbackMax == 'function') {
                                 callbackMax(max - t.length);
                             }
@@ -142,7 +142,7 @@ App::getLocale().'/super-admin/license-agreements/create']))
                     },
                     licenseAgreementContent: {
                         required: true,
-                        maxlength: 1011,
+                        maxlength: 20000,
                     }
                 },
                 messages: {
