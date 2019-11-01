@@ -25,7 +25,7 @@ NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS 
         <div id="app-btn" mt20>
 
             <a href="#"
-               onclick="window.open('http://dcp.smartforum.org/uploads/dcp-intl.apk');"
+               onclick="window.open('https://play.google.com/store/apps/details?id=org.smartforum.dcp.vietnam');"
             >
                 <button v-if="show" class="btn app-btn blue-btn">{{this.trans.download_application}}</button>
             </a>

@@ -29,11 +29,44 @@ NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS 
                 @else
 
                     <div class="card-content">
-                        <h2>{{trans('pages.licenses.head')}}</h2>
-                        <p>{{\Carbon\Carbon::parse($license->created_at)->diffForHumans()}}</p>
-                        <p>{{trans('pages.licenses.body')}}</p>
-                        <h3>{{trans('pages.licenses.license')}}</h3>
-                        <p>{!! $license->content!!}</p>
+{{--                        <h2>{{trans('pages.licenses.head')}}</h2>--}}
+{{--                        <p>{{\Carbon\Carbon::parse($license->created_at)->diffForHumans()}}</p>--}}
+{{--                        <p>{{trans('pages.licenses.body')}}</p>--}}
+{{--                        <h3>{{trans('pages.licenses.license')}}</h3>--}}
+{{--                        <p>{!! $license->content!!}</p>--}}
+                        <h2>{{trans('license.heading')}}</h2>
+                        <p>{{trans('license.last_updated')}}
+                            : {{ Carbon\Carbon::parse($license->created_at)->diffForHumans()}}</p>
+                        <p>{{trans('license.sample_text')}}</p>
+                        <h3>1. {{trans('license.headings.use_of_application')}}</h3>
+                        <p>{{trans('license.content.use_of_application')}}</p>
+
+                        <h3>2. {{trans('license.headings.proprietary_rights')}}</h3>
+                        <p>{{trans('license.content.proprietary_rights')}}</p>
+
+                        <h3>3. {{trans('license.headings.company_privacy_policy')}}</h3>
+                        <p>{{trans('license.content.company_privacy_policy')}}</p>
+
+                        <h3>4. {{trans('license.headings.restricted_rights')}}</h3>
+                        <p>{{trans('license.content.restricted_rights')}}</p>
+
+                        <h3>5. {{trans('license.headings.export_restrictions')}}</h3>
+                        <p>{{trans('license.content.export_restrictions')}}</p>
+
+                        <h3>6. {{trans('license.headings.termination')}}</h3>
+                        <p>{{trans('license.content.termination')}}</p>
+
+                        <h3>7. {{trans('license.headings.indemnity')}}</h3>
+                        <p>{{trans('license.content.indemnity')}}</p>
+
+                        <h3>8. {{trans('license.headings.disclaimer_of_warranty')}}</h3>
+                        <p>{{trans('license.content.disclaimer_of_warranty')}}</p>
+
+                        <h3>9. {{trans('license.headings.limitation_of_liability')}}</h3>
+                        <p>{{trans('license.content.limitation_of_liability')}}</p>
+
+                        <h3>10. {{trans('license.headings.miscellaneous')}}</h3>
+                        <p>{{trans('license.content.miscellaneous')}}</p>
 
                         <app-download endpoint="{{config('app.api_url')}}api/update-user-app-license/{{$user->id}}"
                                       :trans="{{json_encode(\Lang::get('pages'))}}"

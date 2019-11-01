@@ -12,15 +12,47 @@ NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS 
 return [
 
 	'license'      => 'Giấy phép',
-	'heading'      => 'Mẫu Thỏa thuận cấp phép người dùng cuối ("Thỏa thuận")',
+	'heading'      => 'Thoả thuận Cấp phép Người dùng cuối của Ứng dụng Nền tảng Nhận dạng Thiết bị (Device Characterization Platform)',
 	'last_updated' => 'Cập nhật mới nhất',
-	'sample_text'  => 'Vui lòng đọc kỹ Thỏa thuận cấp phép người dùng cuối ("Thỏa thuận") này trước khi nhấp vào "Tôi
-                            Đồng ý nút ", tải xuống hoặc sử dụng Cổng thông tin phân loại thiết bị (" Ứng dụng ").
-                        Bằng cách nhấp vào nút "Tôi đồng ý", tải xuống hoặc sử dụng Ứng dụng, bạn đồng ý với
-                            bị ràng buộc bởi các điều khoản và điều kiện của Thỏa thuận này.
-             Nếu bạn không đồng ý với các điều khoản của Thỏa thuận này, đừng nhấp vào nút "Tôi đồng ý" và
-                            không tải xuống hoặc sử dụng Ứng dụng.',
+	'sample_text'  => 'Bằng việc tải Ứng dụng Nền tảng Nhận dạng Thiết bị (Device Characterization Platform Application – gọi tắt là “DCP”) từ cổng website DCP hoặc Google Play Store, cùng với việc cài đặt hoặc sử dụng toàn bộ hoặc một phần của Ứng dụng Nền tảng Nhận dạng Thiết bị (gọi tắt là “Ứng dụng”), bạn đã đồng ý với các điều khoản và điều kiện sau (“Điều khoản và Điều kiện”).',
 	'accept'       => 'Tôi chấp nhận thỏa thuận cấp phép',
-	'continue'     => 'Tiếp tục'
+	'continue'     => 'Tiếp tục',
+
+
+    'headings' => [
+        'use_of_application' => 'SỬ DỤNG ỨNG DỤNG',
+        'proprietary_rights' => 'QUYỀN SỞ HỮU',
+        'company_privacy_policy' => 'CHÍNH SÁCH RIÊNG TƯ CỦA CÔNG TY',
+        'restricted_rights' => 'ĐIỀU KHOẢN HẠN CHẾ',
+        'export_restrictions' => 'HẠN CHẾ XUẤT KHẨU',
+        'termination' => 'CHẤM DỨT ĐIỀU KHOẢN',
+        'indemnity' => 'BỒI THƯỜNG',
+        'disclaimer_of_warranty' => 'TỪ CHỐI BẢO HÀNH',
+        'limitation_of_liability' => 'GIỚI HẠN TRÁCH NHIỆM',
+        'miscellaneous' => 'CÁC ĐIỀU KHOẢN KHÁC'
+    ],
+    'content' => [
+        'use_of_application' => 'a. Công ty cấp cho bạn quyền và giấy phép không độc quyền, không có khả năng chuyển nhượng và có giới hạn để cài đặt và sử dụng ứng dụng duy nhất và dành riêng cho một cá nhân.
+b. Bạn không được sử dụng Ứng dụng theo bất kì cách nào để gây phá hoại, vô hiệu hoá, gây quá tải hoặc làm hỏng Ứng dụng (hoặc máy chủ hay mạng kết nối Ứng dụng). Bạn cũng không được sử dụng Ứng dụng theo bất kỳ phương thức nào để can thiệp vào quyền sử dụng của các đối tượng khác, can thiệp vào Ứng dụng (hoặc máy chủ hay mạng kết nối Ứng dụng).  
+c. Bạn đồng ý rằng bạn hoàn toàn chịu trách nhiệm (Công ty không có trách nhiệm gì với bạn hay bất kì bên thứ ba nào) trong việc sử dụng Ứng dụng, hành vi vi phạm nghĩa vụ đối chiếu theo các Điều khoản và Điều kiện, và hậu quả của vi phạm (gồm thiệt hại hoặc hư hỏng mà Công ty phải chịu).',
+        'proprietary_rights' => 'Bạn thừa nhận rằng (a) Ứng dụng này có thể chứa thông tin độc quyền và bảo mật, được bảo vệ bởi luật sở hữu trí tuệ và các luật hiện hành khác, và (b) Công ty và/hoặc các bên thứ ba sở hữu toàn quyền, tên Ứng dụng, lợi ích đối với Ứng dụng và nội dung Ứng dụng (ngoại trừ các nội dung do bạn cung cấp, được trình bày hoặc truy cập thông qua Ứng dụng) gồm có (nhưng không hạn chế) tất cả các quyền sở hữu trí tuệ. “Quyền sở hữu trí tuệ” là bất kì và tất cả các quyền hiện có theo luật sáng chế, luật bản quyền, luật bảo mật thương mại, luật cạnh tranh không lành mạnh, bất kì và tất cả các quyền sở hữu khác, bất kì và tất cả mọi sự sử dụng, gia hạn, và phục hồi, có hiệu lực ngay bây giờ hoặc sau đó trên toàn thế giới. Bạn đồng ý rằng bạn sẽ không cho phép bất kì bên thứ ba nào (i) sao chép, bán, cấp phép, phân phối, chuyển nhượng, sửa đổi, điều chỉnh, dịch thuật, chuẩn bị các công việc liên quan, đảo ngược, tháo rời hoặc cố tình lấy mã nguồn từ Ứng dụng hoặc nội dung được trình bày, truy cập qua Ứng dụng cho bất cứ mục đích gì, trừ khi được phép; (ii) có bất kì hành động nào để phá vỡ quy tắc bảo mật và sử dụng nội dung được cung cấp, triển khai hoặc thực hiện bởi bất kì chức năng nào trong Ứng dụng (bao gồm (nhưng không giới hạn) chức năng quản lý quyền kỹ thuật số); (iii) sử dụng Ứng dụng để truy cập, sao chép, chuyển nhượng, chuyển mã hoặc truyền tải lại nội dung vi phạm pháp luật hay quyền của bên thứ ba; (iv) xoá bỏ, che khuất hoặc thay đổi thông báo bản quyền, thương hiệu hoặc các thông báo quyền sở hữu khác của Công ty hoặc của bên thứ ba, được gắn vào, nằm trong, truy cập cùng với hoặc qua Ứng dụng.',
+        'company_privacy_policy' => 'a. Chính sách Quyền riêng tư của Công ty (đăng tải tại http://www.vietnam.dcp.smartforum.org/privacypolicy) giải thích cách thức Công ty sử dụng thông tin của bạn và bảo vệ quyền riêng tư của bạn khi bạn sử dụng Ứng dụng. Bạn đã đồng ý với điều khoản sử dụng thông tin theo Chính sách Quyền riêng tư của Công ty.
+b. Ứng dụng này có thể có một số tính năng được sử dụng cùng với công cụ tìm kiếm hoặc các dịch vụ khác của Công ty. Chính sách Quyền riêng tư của Công ty có thể sẽ được cập nhật theo thời gian mà không thông báo trước.',
+        'restricted_rights' => 'Ứng dụng này cùng các tài liệu và hồ sơ liên quan được phát triển hoàn toàn từ nguồn vốn tư nhân. Người sử dụng Ứng dụng không được phép sao chép, tái sản xuất, phát hành, sửa đổi, tiết lộ hoặc chuyển nhượng Ứng dụng (gồm cả thông số kỹ thuật và hướng dẫn sử dụng). Điều này được quy định trong các điều khoản, điều kiện, giao ước trong bản Thỏa thuận vềĐiều Khoản và Điều kiện.',
+        'export_restrictions' => 'Ứng dụng chịu sự kiểm soát hoặc hạn chế xuất khẩu tại một số quốc gia và vùng lãnh thổ khác. Bạn đã đồng ý tuân thủ tất cả các luật lệ và quy định xuất khẩu quốc tế hiện hành. Các điều luật này gồm  những giới hạn về điểm đến, người dùng cuối và việc dùng cuối.',
+        'termination' => 'Các Điều khoản và Điều kiện này sẽ tiếp tục được áp dụng cho đến khi bạn hoặc Công ty  chấm dứt việc áp dụng. Bạn có thể dừng các Điều khoản và Điều kiện này bất kì lúc nào bằng cách xoá Ứng dụng trên điện thoại hoàn toàn và vĩnh viễn. Nếu bạn không tuân thủ các Điều khoản và Điều kiện, quyền của bạn sẽ ngay lập tức tự động kết thúc mà không cần thông báo từ phía Công ty hay bất kì bên thứ ba nào. Trong trường hợp này, bạn phải xoá Ứng dụng ngay lập tức.',
+        'indemnity' => 'Trong phạm vi tối đa được pháp luật cho phép, bạn đồng ý bảo vệ, bồi hoàn và không gây hại cho Công ty, chi nhánh, lãnh đạo, nhân viên, đại lý của Công ty với bất kỳ hình thức khiếu nại, hành động kiện cáo tố tụng cũng như mọi mất mát, nợ, phá hoại, chi phí (gồm cả phí hầu toà) phát sinh từ việc sử dụng Ứng dụng của bạn (bao gồm tải xuống, cài đặt hoặc sử dụng Ứng dụng), hoặc việc vi phạm các Điều khoản và Điều kiện.',
+        'disclaimer_of_warranty' => 'a. Bạn hiểu chính xác và đồng ý rằng việc sử dụng Ứng dụng dựa trên quyền quyết định và rủi ro của bạn; và Ứng dụng được cung cấp hiện không có hình thức bảo hành nào.
+b. Bạn hoàn toàn chịu trách nhiệm cho bất kì mọi hư tổn của thiết bị điện thoại và các thiết bị khác, cũng như việc mất dữ liệu do sử dụng Ứng dụng.
+c. Công ty sẽ tiếp tục từ chối mọi bảo hành và điều kiện dưới bất kì hình thức nào (kể cả được chỉ ra rõ ràng hay ngụ ý), gồm có (nhưng không giới hạn) cho các bảo hiểm bằng văn bản hoặc bằng miệng, và điều kiện thương mại, phù hợp cho một mục đích cụ thể và không vi phạm đối với ứng dụng.
+d. Ứng dụng này không dành cho hoạt động của các cơ sở nhà máy hạt nhân, hệ thống hỗ trợ sự sống, các trường hợp liên lạc khẩn cấp, hệ thống định vị hoặc hệ thống liên lạc máy bay, hệ thống kiểm soát không lưu, hoặc bất kì hoạt động nào mà việc hư hại của ứng dụng có thể dẫn đến tử vong, thương vong cá nhân, thiệt hại nghiêm trọng về thể chất và môi trường.',
+        'limitation_of_liability' => 'Bạn hiểu cụ thể và đồng ý tuyệt đối rằng Công ty, các công ty con, chi nhánh và các bên cấp phép của Công ty không chịu trách nhiệm pháp lý với bạn theo bất kì nguyên lý trách nhiệm nào đối với các hậu quả thiệt hại trực tiếp, gián tiếp, ngẫu nhiên, đặc biệt, hoặc bồi thường thiệt hại có tính trừng phạt có thể xảy ra do bạn sử dụng Ứng dụng, bao gồm mất dữ liệu hoặc gây hỏng thiết bị điện thoại, cho dù Công ty hoặc đại diện của Công ty đã được thông báo hoặc đã được nhận biết về những khả năng tổn thất phát sinh.',
+        'miscellaneous' => 'a. Các Điều khoản và Điều kiện này cấu thành toàn bộ Thoả thuận có liên quan đến Ứng dụng giữa bạn và Công ty, và sẽ chi phối việc sử dụng Ứng dụng của bạn, hoàn toàn thay thế các thoả thuận trước đây hoặc tạm thời giữa bạn và Công ty liên quan đến Ứng dụng.
+b. Việc Công ty không thực hiện hoặc thi hành các quyền hoặc quy định nào trong Điều khoản và Điền kiện này không lập thành việc Công ty từ bỏ quyền hay quy định đó. Nó vẫn sẽ có hiệu lực với Công ty. 
+c. Nếu toà án có thẩm quyền trong vấn đề này quy định rằng các khoản mục trong Điều khoản và Điều kiện này là không hợp lệ, thì khoản mục đó sẽ bị xoá khỏi Điều khoản và Điều kiện mà không ảnh hưởng đến các phần còn lại của Điều Khoản và Điều Kiện. Các khoản mục còn lại vẫn hợp lệ và có giá trị thi hành. 
+d. Các quyền được cấp theo Điều khoản và Điều kiện này sẽ không được chỉ định hoặc chuyển giao bởi bạn hay Công ty mà không có sự chấp thuận trên giấy tờ của bên còn lại. Bạn và Công ty không được phép uỷ thác trách nhiệm hoặc nghĩa vụ của mình, được quy định trong Điều khoản và Điều kiện này, mà không có sự chấp thuận trước bằng văn bản của bên còn lại.
+e. Các Điều khoản và Điều kiện cũng như mối quan hệ của bạn với Công ty theo các Điều khoản và Điều kiện này sẽ chịu sự chi phối của luật pháp của Bang California mà không liên quan đến xung đột giữa các quy định pháp luật. Bạn và Công ty cùng đồng ý đệ trình lên cơ quan tài phán của các toà án trong Hạt Santa Clara, Bang California để xử lý các vấn đề pháp lý phát sinh từ Điều khoản và Điều kiện này. Tuy nhiên, bạn đồng ý rằng Công ty sẽ được phép nộp đơn xin các biện pháp khắc phục (hoặc tương đương với hình thức giảm nhẹ pháp lý) tại bất kì khu vực tài phán nào.'
+    ]
+
 
 ];
