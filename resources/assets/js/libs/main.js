@@ -221,8 +221,8 @@ $(document).ready(function () {
 
     // regex for email like :
     $.validator.addMethod('email_validation_regex', function (value) {
-        var reg = /(.*)@3gca\.org$/;
-        return reg.test(value);   //
+        var reg = /(.*)@(3gca\.org|dms\.gov\.vn)$/;
+        return reg.test(value);
     });
 
     $("#update-user-form-super").validate({
